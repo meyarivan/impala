@@ -5,6 +5,7 @@ Pre-requisites
 
 ### To download & unpack under impala/thirdparty/
 
+<pre>
 http://archive.cloudera.com/cdh4/cdh/4/hive-0.9.0-cdh4.1.0.tar.gz
 http://archive.cloudera.com/cdh4/cdh/4/hadoop-2.0.0-cdh4.1.0.tar.gz
 http://archive.cloudera.com/cdh4/cdh/4/hbase-0.92.1-cdh4.1.0.tar.gz
@@ -17,6 +18,7 @@ https://gflags.googlecode.com/files/gflags-1.5.tar.gz
 https://snappy.googlecode.com/files/snappy-1.0.5.tar.gz
 ftp://ftp.andrew.cmu.edu/pub/cyrus-mail/cyrus-sasl-2.1.23.tar.gz
 https://mongoose.googlecode.com/files/mongoose-3.0.tgz
+</pre>
 
 - compile mongoose
 - compile other deps using "impala/bin/build_thirdparty.sh -noclean"
